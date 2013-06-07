@@ -1,0 +1,13 @@
+.rspec
+spec/reports
+coverage/*
+db/*.sql*
+log/*.log
+tmp
+.DS_Store
+.sass-cache
+*~
+*.swp
+*.swo
+*.swn
+chromedriver.log

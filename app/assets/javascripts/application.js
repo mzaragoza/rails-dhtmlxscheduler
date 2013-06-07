@@ -1,6 +1,6 @@
 //= require jquery
 //= require jquery_ujs
-//= #require twitter/bootstrap
+//= require twitter/bootstrap
 //= require jquery.ui.all
 //= require jquery-minicolors
 //= require jquery-minicolors-simple_form

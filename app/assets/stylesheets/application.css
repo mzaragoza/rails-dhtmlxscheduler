@@ -1,0 +1,17 @@
+/*
+ *= require jquery.ui.all
+ *= require dhtmlx/dhtmlxscheduler
+ *= require dhtmlx/dhtmlxscheduler_dhx_terrace
+ *= require jquery-minicolors
+ *= #require bootstrap_and_overrides
+ *= require_self
+ */
+
+html, body{
+  margin:0px;
+  padding:0px;
+  height:100%;
+  overflow:hidden;
+}
+
+

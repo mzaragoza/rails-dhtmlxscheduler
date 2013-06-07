@@ -1,0 +1,55 @@
+:css
+  #wrapper{
+   width:90%;
+  }
+  #sidebar{
+   width:25%;
+  }
+  #content{
+  float:right;
+   width:75%;
+  }
+%h1 rails-asset-dhtmlxscheduler
+:javascript
+  function init() {
+    modSchedHeight();
+    scheduler.config.xml_date="%Y-%m-%d %H:%i";
+    scheduler.config.details_on_create=true;
+    scheduler.config.details_on_dblclick=true;
+    scheduler.init('scheduler_here',new Date(2012,6,1),"month");
+    scheduler.load("xml/recurring.xml?v=35");
+  }
+
+:javascript
+  function modSchedHeight(){
+    var headHeight = 100;
+    var sch = document.getElementById("scheduler_here");
+    sch.style.height = "700px";
+    var contbox = document.getElementById("contbox");
+    contbox.style.width = (parseInt(document.body.offsetWidth)-300)+"px";
+  }
+%div{:style => "height:95px;background-color:#3D3D3D;border-bottom:5px solid #828282;"}
+%a{:href => "sample_basic.shtml", :style => "float:left;margin:22px 0 0 25px;"}
+  %img{:src => "images/btn-left.gif"}/
+#contbox{:style => "float:left;color:white;margin:22px 75px 0 75px; overflow:hidden;font: 17px Arial,Helvetica;color:white"}
+  %div{:style => "border-right:5px solid #2D8EB6;color:#2D8EB6;width:175px;height:50px;float:left;text-align:right;padding-right:25px;"} Recurring Events
+  %div{:style => "font-size:12px;padding-left:225px;width:400px;"} View regularly occuring events which are repeated daily, weekly, monthly, or yearly.
+  %div{:style => "font-size:12px;padding-left:225px;margin-top:5px;color:#949292;width:400px;"} You can add/edit/delete events, but changes will be available only until the demo is reloaded.
+%a{:href => "sample_units.shtml", :style => "float:right;margin:22px 25px 0 0;"}
+  %img{:src => "images/btn-right.gif"}/
+/ end. info block
+#wrapper
+  #content
+    #scheduler_here.dhx_cal_container{:style => "width:100%; height:100%;"}
+      .dhx_cal_navline
+        .dhx_cal_prev_button  
+        .dhx_cal_next_button  
+        .dhx_cal_today_button
+        .dhx_cal_date
+        .dhx_cal_tab{:name => "day_tab", :style => "right:204px;"}
+        .dhx_cal_tab{:name => "week_tab", :style => "right:140px;"}
+        .dhx_cal_tab{:name => "month_tab", :style => "right:76px;"}
+      .dhx_cal_header
+      .dhx_cal_data
+  #sidebar
+    This is the sidebar

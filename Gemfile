@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 ruby "1.9.3"
 
-gem 'sqlite3'
-gem 'thin'
+gem 'pg'
 
+gem 'thin'
 gem 'twitter-bootstrap-rails'
 gem 'decent_exposure'
 gem 'rails-backbone'
@@ -13,7 +13,6 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'jquery-rest-rails'
 gem 'jquery-minicolors-rails'
-
 gem 'haml-rails'
 gem 'simple_form'
 gem 'awesome_print'

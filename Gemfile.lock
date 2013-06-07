@@ -82,6 +82,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     multi_json (1.7.6)
+    pg (0.15.1)
     polyglot (0.3.3)
     populator (1.0.0)
     rack (1.4.5)
@@ -127,7 +128,6 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.7)
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -163,12 +163,12 @@ DEPENDENCIES
   jquery-rest-rails
   jquery-ui-rails
   json
+  pg
   populator
   rails (= 3.2.11)
   rails-backbone
   sass-rails (~> 3.2.3)
   simple_form
-  sqlite3
   thin
   twitter-bootstrap-rails
   uglifier (>= 1.0.3)

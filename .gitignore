@@ -1,3 +1,4 @@
+config/database.yml
 .rspec
 spec/reports
 coverage/*

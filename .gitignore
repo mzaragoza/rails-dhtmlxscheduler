@@ -1,3 +1,4 @@
+public/assets/*
 config/database.yml
 .rspec
 spec/reports

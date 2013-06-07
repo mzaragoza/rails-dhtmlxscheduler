@@ -223,14 +223,14 @@ top:0;
 }
 
 .dhx_cal_prev_button {
-background-image:url(imgs/buttons.png);
+background-image:url(/assets/dhtmlx/imgs/buttons.png);
 background-position:0 0;
 width:29px;
 height:17px;
 left:50px;
 cursor:pointer;
 right:61px;
-background:url(imgs_dhx_terrace/arrow_left.png) no-repeat center center !important;
+background:url(/assets/dhtmlx/imgs_dhx_terrace/arrow_left.png) no-repeat center center !important;
 -webkit-border-top-left-radius:5px;
 -webkit-border-bottom-left-radius:5px;
 -moz-border-radius-topleft:5px;
@@ -240,14 +240,14 @@ border-bottom-left-radius:5px;
 }
 
 .dhx_cal_next_button {
-background-image:url(imgs/buttons.png);
+background-image:url(/assets/dhtmlx/imgs/buttons.png);
 background-position:-30px 0;
 width:29px;
 height:17px;
 left:80px;
 cursor:pointer;
 right:14px;
-background:url(imgs_dhx_terrace/arrow_right.png) no-repeat center center !important;
+background:url(/assets/dhtmlx/imgs_dhx_terrace/arrow_right.png) no-repeat center center !important;
 -webkit-border-top-right-radius:5px;
 -webkit-border-bottom-right-radius:5px;
 -moz-border-radius-topright:5px;
@@ -257,7 +257,7 @@ border-bottom-right-radius:5px;
 }
 
 .dhx_cal_today_button {
-background-image:url(imgs/buttons.png);
+background-image:url(/assets/dhtmlx/imgs/buttons.png);
 background-position:-60px 0;
 height:17px;
 cursor:pointer;
@@ -353,13 +353,13 @@ background-color:#FFF;
 
 .dhx_scale_holder {
 position:absolute;
-background-image:url(imgs_dhx_terrace/databg.png);
+background-image:url(/assets/dhtmlx/imgs_dhx_terrace/databg.png);
 border-right:1px solid #CECECE;
 }
 
 .dhx_scale_holder_now {
 position:absolute;
-background-image:url(imgs_dhx_terrace/databg_now.png);
+background-image:url(/assets/dhtmlx/imgs_dhx_terrace/databg_now.png);
 border-right:1px solid #CECECE;
 }
 
@@ -423,7 +423,7 @@ filter:alpha(opacity=50);
 position:absolute;
 width:128px;
 height:15px;
-background-image:url(imgs/loading.gif);
+background-image:url(/assets/dhtmlx/imgs/loading.gif);
 z-index:9999;
 }
 
@@ -447,11 +447,11 @@ border-right:1px solid #CECECE;
 }
 
 .dhx_multi_day_icon {
-background-image:url(imgs_dhx_terrace/clock_big.gif);
+background-image:url(/assets/dhtmlx/imgs_dhx_terrace/clock_big.gif);
 }
 
 .dhx_multi_day_icon_small {
-background-image:url(imgs_dhx_terrace/clock_small.gif);
+background-image:url(/assets/dhtmlx/imgs_dhx_terrace/clock_small.gif);
 }
 
 .dhtmlxLayoutPolyContainer_dhx_skyblue .dhx_cal_container {
@@ -570,7 +570,7 @@ padding:0;
 }
 
 div.dhx_menu_head {
-background-image:url(imgs/controls.gif);
+background-image:url(/assets/dhtmlx/imgs/controls.gif);
 background-position:0 -43px;
 width:10px;
 height:10px;
@@ -581,7 +581,7 @@ cursor:default;
 }
 
 div.dhx_menu_icon {
-background-image:url(imgs/controls.gif);
+background-image:url(/assets/dhtmlx/imgs/controls.gif);
 width:20px;
 height:20px;
 margin-left:-5px;
@@ -655,7 +655,7 @@ width:738px;
 .dhx_mark {
 position:relative;
 top:3px;
-background-image:url(./imgs/controls.gif);
+background-image:url(/assets/dhtmlx/imgs/controls.gif);
 background-position:0 -43px;
 padding-left:10px;
 display:none;
@@ -770,19 +770,19 @@ cursor:pointer;
 }
 
 .dhx_save_btn {
-background-image:url(./imgs/controls.gif);
+background-image:url(/assets/dhtmlx/imgs/controls.gif);
 background-position:-84px 0;
 width:21px;
 }
 
 .dhx_cancel_btn {
-background-image:url(./imgs/controls.gif);
+background-image:url(/assets/dhtmlx/imgs/controls.gif);
 background-position:-63px 0;
 width:20px;
 }
 
 .dhx_delete_btn {
-background-image:url(./imgs/controls.gif);
+background-image:url(/assets/dhtmlx/imgs/controls.gif);
 background-position:-42px 0;
 width:20px;
 }
@@ -911,7 +911,7 @@ width:100%;
 .dhx_expand_icon {
 position:absolute;
 right:0;
-background-image:url(./imgs/collapse_expand_icon.gif);
+background-image:url(/assets/dhtmlx/imgs/collapse_expand_icon.gif);
 width:18px;
 height:18px;
 cursor:pointer;
@@ -921,13 +921,13 @@ top:-3px;
 }
 
 .dhx_scheduler_agenda .dhx_cal_data {
-background-image:url(./imgs/databg.png);
+background-image:url(/assets/dhtmlx/imgs/databg.png);
 }
 
 .dhx_agenda_area {
 width:100%;
 overflow-y:auto;
-background-image:url(./imgs/databg.png);
+background-image:url(/assets/dhtmlx/imgs/databg.png);
 }
 
 .dhx_agenda_line div {
@@ -980,7 +980,7 @@ background-color:#FFE763;
 
 .dhx_year_tooltip {
 border:1px solid #BBB;
-background-image:url(./imgs/databg.png);
+background-image:url(/assets/dhtmlx/imgs/databg.png);
 position:absolute;
 z-index:9998;
 width:300px;
@@ -1002,7 +1002,7 @@ height:20px;
 padding-right:10px;
 float:left;
 position:relative;
-background:url(./imgs/icon.png) no-repeat;
+background:url(/assets/dhtmlx/imgs/icon.png) no-repeat;
 background-position:5px 4px;
 cursor:pointer;
 border-width:0;
@@ -1039,12 +1039,12 @@ background-color:#C2D5FC;
 
 .dhx_cal_navline div.dhx_minical_icon {
 cursor:pointer;
-background-image:url(./imgs/calendar.gif);
+background-image:url(/assets/dhtmlx/imgs/calendar.gif);
 left:210px;
 top:14px;
 width:30px;
 height:30px;
-background:url(./imgs_dhx_terrace/calendar.gif) no-repeat;
+background:url(/assets/dhtmlx/imgs_dhx_terrace/calendar.gif) no-repeat;
 background-position:3px 5px;
 }
 
@@ -1081,7 +1081,7 @@ cursor:w-resize;
 position:absolute;
 top:0;
 width:4px;
-background:url(./imgs_dhx_terrace/resize_dots.png) repeat-y;
+background:url(/assets/dhtmlx/imgs_dhx_terrace/resize_dots.png) repeat-y;
 }
 
 .dhx_event_resize_start {
@@ -1153,7 +1153,7 @@ width:100%;
 height:100%;
 overflow-y:auto;
 overflow-x:hidden;
-background-image:url(./imgs/databg.png);
+background-image:url(/assets/dhtmlx/imgs/databg.png);
 }
 
 .dhx_map {
@@ -1363,7 +1363,7 @@ position:absolute;
 border:none!important;
 top:5px;
 background-repeat:no-repeat;
-background-image:url(./imgs/images.png);
+background-image:url(/assets/dhtmlx/imgs/images.png);
 }
 
 .dhx_marked_timespan {
@@ -1574,7 +1574,7 @@ font-size:10px;
 background-position:-5px 20px;
 width:20px;
 margin-right:10px;
-background-image:url(./imgs_dhx_terrace/but_repeat.gif);
+background-image:url(/assets/dhtmlx/imgs_dhx_terrace/but_repeat.gif);
 }
 
 .dhx_cal_light_rec {
@@ -1597,7 +1597,7 @@ width:808px;
 height:5px;
 border:0;
 margin-top:-6px;
-background:url(imgs_dhx_terrace/resizing.png) no-repeat center center;
+background:url(/assets/dhtmlx/imgs_dhx_terrace/resizing.png) no-repeat center center;
 }
 
 .dhx_cal_event .dhx_header,.dhx_cal_event .dhx_footer,.dhx_cal_event .dhx_body,.dhx_cal_event .dhx_title {
@@ -1607,7 +1607,7 @@ border-color:transparent;
 }
 
 div.dhx_menu_head,div.dhx_menu_icon {
-background-image:url(imgs_dhx_terrace/controls.png);
+background-image:url(/assets/dhtmlx/imgs_dhx_terrace/controls.png);
 }
 
 .dhx_cal_event_line_start {
@@ -1723,7 +1723,7 @@ text-shadow:0 -1px 0 #93755F;
 float:right;
 width:9px;
 height:9px;
-background:url(imgs_dhx_terrace/close_icon.png) no-repeat center center;
+background:url(/assets/dhtmlx/imgs_dhx_terrace/close_icon.png) no-repeat center center;
 margin-top:1px;
 padding:10px;
 }
@@ -1826,7 +1826,7 @@ border-right:0 dotted #8894A3;
 
 .dhx_agenda_line .dhx_event_icon,.dhx_map_line .dhx_event_icon {
 width:20px;
-background:url(./imgs/icon.png) no-repeat;
+background:url(/assets/dhtmlx/imgs/icon.png) no-repeat;
 background-position:5px 4px;
 cursor:pointer;
 border-width:0;

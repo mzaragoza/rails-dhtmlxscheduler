@@ -11,7 +11,7 @@ $(document).ready(function() {
     return false;
   });
   */
-  scheduler.init('scheduler_here',new Date(),"month");
+  scheduler.init('scheduler',new Date(),"month");
   scheduler.load("/events.json", 'json');
   var dp = new dataProcessor("/events/save");
   dp.init(scheduler);

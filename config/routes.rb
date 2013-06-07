@@ -1,5 +1,5 @@
 RailsDhtmlxscheduler::Application.routes.draw do
-  match 'events/dbaction' => 'events#dbaction', as: :dbaction
+  match 'events/save' => 'events#save', as: :save
   resources :events
   root :to => 'pages#index'
 end

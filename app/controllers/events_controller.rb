@@ -33,7 +33,7 @@ class EventsController < ApplicationController
     end
   end
 
-  def dbaction
+  def save
     @id = params["id"]
     @tid = @id
     if mode == "inserted"

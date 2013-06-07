@@ -11,6 +11,9 @@ $(document).ready(function() {
     return false;
   });
   */
+  scheduler.templates.event_text = function(start,end,ev){
+       return 'Subject: ' + ev.text + '';
+  };
   scheduler.init('scheduler',new Date(),"month");
   scheduler.load("/events.json", 'json');
   var dp = new dataProcessor("/events/save");

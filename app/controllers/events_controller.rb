@@ -17,7 +17,7 @@ class EventsController < ApplicationController
       :text => params[:text],
       :start_date => params[:start_date].to_time().strftime('%Y-%m-%d %H:%M:%S %Z'),
       :end_date => params[:end_date].to_time().strftime('%Y-%m-%d %H:%M:%S %Z'),
-      :event_pid => params[:event_pid],
+      :event_pid => params[:event_pid].to_i,
       :event_length => params[:event_length],
       :rec_pattern => params[:rec_pattern],
       :rec_type => params[:rec_type]

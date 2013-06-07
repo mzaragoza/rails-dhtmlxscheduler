@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(:version => 20110802071408) do
     t.datetime "start_date"
     t.datetime "end_date"
     t.text     "text"
-    t.string   "event_pid"
+    t.integer  "event_pid"
     t.string   "event_length"
     t.string   "rec_pattern"
     t.string   "rec_type"

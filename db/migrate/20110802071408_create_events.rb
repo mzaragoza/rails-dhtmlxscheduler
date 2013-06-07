@@ -4,7 +4,7 @@ class CreateEvents < ActiveRecord::Migration
       t.datetime :start_date
       t.datetime :end_date
       t.text :text
-      t.string :event_pid
+      t.integer :event_pid
       t.string :event_length
       t.string :rec_pattern
       t.string :rec_type
